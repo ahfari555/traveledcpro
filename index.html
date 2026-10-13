@@ -1,57 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Travel & Minimalist EDC Guide | Gear for Modern Explorers</title>
-    <meta name="description" content="Discover expert reviews, minimalist everyday carry (EDC) gear, smart travel backpacks, tech organizers, and packing guides for seamless journeys.">
+    <title>Smart Travel & Minimalist EDC Guide | TravelEDCPro</title>
+    <meta name="description" content="Discover expert reviews, minimalist everyday carry (EDC) gear, smart travel backpacks, tech organizers, and packing guides for modern explorers.">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+<body class="bg-zinc-50 text-zinc-800 antialiased font-sans selection:bg-emerald-500 selection:text-white">
 
     <!-- Header / Navbar -->
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <header class="bg-white/80 backdrop-blur-md border-b border-zinc-200/80 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-xl font-extrabold text-blue-600 tracking-tight">🎒 TravelEDCPro</a>
-            <nav class="flex items-center space-x-6 text-sm font-medium text-slate-600">
-                <a href="#categories" class="hover:text-blue-600 transition">Categories</a>
-                <a href="#reviews" class="hover:text-blue-600 transition">Latest Gear Reviews</a>
-                <a href="packing-guides.html" class="hidden sm:inline hover:text-blue-600 transition">Packing Guides</a>
+            <a href="index.html" class="flex items-center gap-2 text-xl font-extrabold text-zinc-900 tracking-tight">
+                <span class="bg-emerald-600 text-white p-1.5 rounded-lg text-sm">🧭</span> TravelEDCPro
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-zinc-600">
+                <a href="#categories" class="hover:text-emerald-600 transition">Categories</a>
+                <a href="#reviews" class="hover:text-emerald-600 transition">Gear Reviews</a>
+                <a href="packing-guides.html" class="hover:text-emerald-600 transition">Packing Guides</a>
             </nav>
+            <a href="#reviews" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs uppercase tracking-wider px-4 py-2.5 rounded-xl shadow-sm transition">
+                Explore Gear
+            </a>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="py-16 md:py-24 bg-gradient-to-b from-blue-50/50 to-white">
-        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section class="py-20 md:py-28 bg-gradient-to-b from-emerald-50/60 via-zinc-50 to-zinc-50 relative overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
             
             <!-- Left Text Content -->
             <div class="text-center md:text-left">
-                <span class="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4">Smart Travel & Minimalist Gear</span>
-                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-6 leading-tight">
-                    Travel Smarter, Carry Lighter.
+                <span class="inline-flex items-center gap-1.5 bg-emerald-100 text-emerald-800 text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-6">
+                    ✨ 2026 Minimalist Gear Standard
+                </span>
+                <h1 class="text-4xl md:text-6xl font-black text-zinc-900 tracking-tight mb-6 leading-[1.1]">
+                    Travel Smarter. <br><span class="text-emerald-600">Carry Lighter.</span>
                 </h1>
-                <p class="text-lg text-slate-600 mb-8">
-                    Unbiased reviews, minimalist everyday carry (EDC) essentials, tech organizers, and smart travel gear engineered for modern digital nomads and explorers.
+                <p class="text-lg text-zinc-600 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
+                    Rigorous hands-on reviews, modular tech organizers, and precision everyday carry essentials engineered for modern digital nomads and outdoor explorers.
                 </p>
                 <div class="flex flex-wrap justify-center md:justify-start gap-4">
-                    <a href="#reviews" class="bg-blue-600 text-white font-medium px-6 py-3 rounded-xl shadow-sm hover:bg-blue-700 transition">Explore Gear Reviews</a>
-                    <a href="#categories" class="bg-white border border-slate-300 text-slate-700 font-medium px-6 py-3 rounded-xl hover:bg-slate-50 transition">Browse Categories</a>
+                    <a href="#reviews" class="bg-zinc-900 hover:bg-zinc-800 text-white font-semibold px-7 py-3.5 rounded-2xl shadow-lg shadow-zinc-900/10 transition">
+                        Read Latest Reviews
+                    </a>
+                    <a href="#categories" class="bg-white hover:bg-zinc-100 border border-zinc-200 text-zinc-700 font-semibold px-7 py-3.5 rounded-2xl transition">
+                        Browse Categories
+                    </a>
                 </div>
             </div>
 
             <!-- Right Hero Card / Visual -->
             <div class="flex justify-center">
-                <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-xl max-w-sm w-full relative overflow-hidden group">
-                    <div class="absolute top-4 right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider z-10">Editor's Choice</div>
-                    <div class="w-full h-64 bg-slate-100 rounded-2xl flex items-center justify-center text-slate-400 font-semibold mb-4">
-                        [Smart EDC Backpack]
+                <div class="bg-white p-6 rounded-3xl border border-zinc-200/80 shadow-2xl shadow-zinc-200/50 max-w-sm w-full relative group">
+                    <div class="absolute top-6 right-6 bg-zinc-900 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest z-10">
+                        Editor's Choice
+                    </div>
+                    <div class="w-full h-64 bg-zinc-100 rounded-2xl flex flex-col items-center justify-center text-zinc-400 font-medium mb-5 border border-dashed border-zinc-300">
+                        <span class="text-3xl mb-2">🎒</span>
+                        <span>[Smart EDC Backpack]</span>
                     </div>
                     <div class="text-center">
-                        <h3 class="font-bold text-slate-900 text-lg">Minimalist Tech Travel Backpack</h3>
-                        <p class="text-slate-500 text-sm mt-1">Waterproof, TSA-friendly, modular compartments.</p>
-                        <span class="inline-block mt-3 text-blue-600 font-semibold text-sm">Read Full Review &rarr;</span>
+                        <h3 class="font-bold text-zinc-900 text-lg">Modular Tech Travel Backpack</h3>
+                        <p class="text-zinc-500 text-sm mt-1">Waterproof shell, TSA-compliant clamshell opening.</p>
+                        <a href="#reviews" class="inline-flex items-center gap-1 mt-4 text-emerald-600 font-bold text-sm hover:underline">
+                            Read Full Review &rarr;
+                        </a>
                     </div>
                 </div>
             </div>
@@ -60,88 +76,114 @@
     </section>
 
     <!-- Categories Grid -->
-    <section id="categories" class="py-16 max-w-6xl mx-auto px-4">
-        <h2 class="text-2xl font-bold text-slate-900 mb-8 text-center">Explore Gear Categories</h2>
+    <section id="categories" class="py-20 max-w-6xl mx-auto px-4">
+        <div class="text-center max-w-xl mx-auto mb-16">
+            <h2 class="text-3xl font-extrabold text-zinc-900 tracking-tight mb-3">Explore Gear Categories</h2>
+            <p class="text-zinc-600 text-sm">Everything you need to streamline your packing and everyday carry setup.</p>
+        </div>
+
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             
-            <!-- 1. Travel Backpacks -->
-            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+            <!-- 1. Smart Backpacks -->
+            <div class="bg-white p-7 rounded-3xl border border-zinc-200/80 shadow-sm hover:shadow-xl hover:border-emerald-500/30 transition duration-300 flex flex-col justify-between group">
                 <div>
-                    <div class="text-3xl mb-4">✈️</div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Smart Backpacks</h3>
-                    <p class="text-sm text-slate-600 mb-4">Cabin-approved travel bags, anti-theft designs, and modular carry-ons.</p>
+                    <div class="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">✈️</div>
+                    <h3 class="text-lg font-bold text-zinc-900 mb-2">Smart Backpacks</h3>
+                    <p class="text-sm text-zinc-600 mb-6 leading-relaxed">Cabin-approved travel bags, anti-theft designs, and modular carry-ons built for durability.</p>
                 </div>
-                <span class="text-blue-600 font-semibold text-sm">View Guides &rarr;</span>
+                <a href="#reviews" class="text-emerald-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-1 transition">
+                    View Guides &rarr;
+                </a>
             </div>
 
             <!-- 2. Minimalist EDC -->
-            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+            <div class="bg-white p-7 rounded-3xl border border-zinc-200/80 shadow-sm hover:shadow-xl hover:border-emerald-500/30 transition duration-300 flex flex-col justify-between group">
                 <div>
-                    <div class="text-3xl mb-4">🔪</div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Minimalist EDC</h3>
-                    <p class="text-sm text-slate-600 mb-4">Slim wallets, multi-tools, pocket organizers, and titanium key rings.</p>
+                    <div class="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">🔪</div>
+                    <h3 class="text-lg font-bold text-zinc-900 mb-2">Minimalist EDC</h3>
+                    <p class="text-sm text-zinc-600 mb-6 leading-relaxed">Slim RFID wallets, pocket multi-tools, titanium key organizers, and modular utility tools.</p>
                 </div>
-                <span class="text-blue-600 font-semibold text-sm">View Guides &rarr;</span>
+                <a href="#reviews" class="text-emerald-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-1 transition">
+                    View Guides &rarr;
+                </a>
             </div>
 
             <!-- 3. Tech Organizers -->
-            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+            <div class="bg-white p-7 rounded-3xl border border-zinc-200/80 shadow-sm hover:shadow-xl hover:border-emerald-500/30 transition duration-300 flex flex-col justify-between group">
                 <div>
-                    <div class="text-3xl mb-4">🔌</div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Tech Organizers</h3>
-                    <p class="text-sm text-slate-600 mb-4">Cable pouches, power banks, universal travel adapters, and gear cases.</p>
+                    <div class="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">🔌</div>
+                    <h3 class="text-lg font-bold text-zinc-900 mb-2">Tech Organizers</h3>
+                    <p class="text-sm text-zinc-600 mb-6 leading-relaxed">Cable pouches, GaN power bricks, universal travel adapters, and weatherproof tech gear cases.</p>
                 </div>
-                <span class="text-blue-600 font-semibold text-sm">View Guides &rarr;</span>
+                <a href="#reviews" class="text-emerald-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-1 transition">
+                    View Guides &rarr;
+                </a>
             </div>
 
             <!-- 4. Travel Gadgets -->
-            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+            <div class="bg-white p-7 rounded-3xl border border-zinc-200/80 shadow-sm hover:shadow-xl hover:border-emerald-500/30 transition duration-300 flex flex-col justify-between group">
                 <div>
-                    <div class="text-3xl mb-4">🔋</div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Travel Gadgets</h3>
-                    <p class="text-sm text-slate-600 mb-4">Noise-canceling gear, portable routers, smart luggage tags, and water purifiers.</p>
+                    <div class="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">🔋</div>
+                    <h3 class="text-lg font-bold text-zinc-900 mb-2">Travel Gadgets</h3>
+                    <p class="text-sm text-zinc-600 mb-6 leading-relaxed">ANC headphones, pocket power banks, smart tracking cards, and portable water purifiers.</p>
                 </div>
-                <span class="text-blue-600 font-semibold text-sm">View Guides &rarr;</span>
+                <a href="#reviews" class="text-emerald-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-1 transition">
+                    View Guides &rarr;
+                </a>
             </div>
 
             <!-- 5. Packing Cubes -->
-            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+            <div class="bg-white p-7 rounded-3xl border border-zinc-200/80 shadow-sm hover:shadow-xl hover:border-emerald-500/30 transition duration-300 flex flex-col justify-between group">
                 <div>
-                    <div class="text-3xl mb-4">🧳</div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Packing Systems</h3>
-                    <p class="text-sm text-slate-600 mb-4">Compression cubes, toiletry bags, and lightweight garment folders.</p>
+                    <div class="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">🧳</div>
+                    <h3 class="text-lg font-bold text-zinc-900 mb-2">Packing Systems</h3>
+                    <p class="text-sm text-zinc-600 mb-6 leading-relaxed">Compression cubes, hanging toiletry bags, and ultralight garment folders to maximize luggage space.</p>
                 </div>
-                <span class="text-blue-600 font-semibold text-sm">View Guides &rarr;</span>
+                <a href="#reviews" class="text-emerald-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-1 transition">
+                    View Guides &rarr;
+                </a>
             </div>
 
             <!-- 6. Security & Safety -->
-            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+            <div class="bg-white p-7 rounded-3xl border border-zinc-200/80 shadow-sm hover:shadow-xl hover:border-emerald-500/30 transition duration-300 flex flex-col justify-between group">
                 <div>
-                    <div class="text-3xl mb-4">🔒</div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Security & Safety</h3>
-                    <p class="text-sm text-slate-600 mb-4">RFID-blocking passport holders, TSA locks, and hidden stash pockets.</p>
+                    <div class="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">🔒</div>
+                    <h3 class="text-lg font-bold text-zinc-900 mb-2">Security & Safety</h3>
+                    <p class="text-sm text-zinc-600 mb-6 leading-relaxed">RFID-blocking passport cases, TSA-approved combination locks, and discreet stash pockets.</p>
                 </div>
-                <span class="text-blue-600 font-semibold text-sm">View Guides &rarr;</span>
+                <a href="#reviews" class="text-emerald-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-1 transition">
+                    View Guides &rarr;
+                </a>
             </div>
 
         </div>
     </section>
 
     <!-- Latest Reviews Section -->
-    <section id="reviews" class="py-16 bg-white border-t border-slate-200">
+    <section id="reviews" class="py-20 bg-white border-t border-zinc-200/80">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-2xl font-bold text-slate-900 mb-8">Latest Expert Reviews & Gear Guides</h2>
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+                <div>
+                    <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider">Expert Testing</span>
+                    <h2 class="text-3xl font-extrabold text-zinc-900 tracking-tight mt-1">Latest Gear Reviews</h2>
+                </div>
+                <p class="text-zinc-500 text-sm">Rigorous, unbiased evaluations of the best travel and EDC equipment.</p>
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
                 <!-- Sample Review Card -->
-                <article class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow transition flex flex-col justify-between">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <span class="text-xs font-bold text-blue-600 uppercase mb-2">Smart Backpacks • Amazon Pick</span>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">
-                            <a href="#" class="hover:text-blue-600 transition">Best Minimalist Travel Backpacks for Digital Nomads in 2026</a>
+                <article class="border border-zinc-200/80 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between bg-zinc-50/50">
+                    <div class="p-7 flex flex-col flex-grow">
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full w-fit uppercase mb-4 tracking-wider">Smart Backpacks</span>
+                        <h3 class="text-xl font-bold text-zinc-900 mb-3 leading-snug">
+                            <a href="#" class="hover:text-emerald-600 transition">Best Minimalist Travel Backpacks for Digital Nomads (2026 Edition)</a>
                         </h3>
-                        <p class="text-slate-600 text-sm mb-4 flex-grow">A comprehensive hands-on comparison of carry-on capacities, ergonomic comfort, and tech protection.</p>
-                        <div class="text-xs text-slate-400">Published October 2026 • 6 min read</div>
+                        <p class="text-zinc-600 text-sm mb-6 flex-grow leading-relaxed">A comprehensive hands-on comparison of carry-on volume, harness ergonomics, laptop protection, and weatherproof ratings.</p>
+                        <div class="text-xs font-medium text-zinc-400 pt-4 border-t border-zinc-200/60 flex justify-between">
+                            <span>Published Oct 2026</span>
+                            <span>6 min read</span>
+                        </div>
                     </div>
                 </article>
 
@@ -150,10 +192,10 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-12 text-sm border-t border-slate-800">
+    <footer class="bg-zinc-900 text-zinc-400 py-12 text-sm border-t border-zinc-800">
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
             <p>&copy; 2026 TravelEDCPro. All rights reserved.</p>
-            <div class="flex flex-wrap justify-center gap-6">
+            <div class="flex flex-wrap justify-center gap-8 text-zinc-400 text-xs font-medium">
                 <a href="#" class="hover:text-white transition">Privacy Policy</a>
                 <a href="#" class="hover:text-white transition">Terms of Service</a>
                 <a href="#" class="hover:text-white transition">Affiliate Disclosure</a>
